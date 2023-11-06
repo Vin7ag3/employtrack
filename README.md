@@ -38,4 +38,4 @@ None
 ## Contact Information
 [GitHub](https://github.com/Vin7ag3)
 
-Contact: [Vince Peo](https://vincepeo@yahoo.com)
+Contact: vincepeo@yahoo.com
