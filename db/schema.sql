@@ -2,11 +2,13 @@ DROP DATABASE IF EXISTS employtrack_db;
 CREATE DATABASE employtrack_db;
 USE employtrack_db;
 
+-- create table to store dept info
 CREATE TABLE department (
   id INT PRIMARY KEY AUTO_INCREMENT,
   name VARCHAR(30)
 );
 
+-- create table to store role info
 CREATE TABLE role (
   id INT PRIMARY KEY AUTO_INCREMENT,
   title VARCHAR(30),
@@ -15,6 +17,7 @@ CREATE TABLE role (
   FOREIGN KEY (department_id) REFERENCES department(id)
 );
 
+-- create table to store employee info
 CREATE TABLE employee (
   id INT PRIMARY KEY AUTO_INCREMENT,
   first_name VARCHAR(30),
