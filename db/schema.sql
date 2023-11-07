@@ -2,7 +2,7 @@ DROP DATABASE IF EXISTS employtrack_db;
 CREATE DATABASE employtrack_db;
 USE employtrack_db;
 
--- creat table to store dept info
+-- create table to store dept info
 CREATE TABLE department (
   id INT PRIMARY KEY AUTO_INCREMENT,
   name VARCHAR(30)
