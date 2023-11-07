@@ -3,11 +3,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-
-Build a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.
-
-## Table of Contents:
-
+```
+This application streamlines management of departments, roles, and employees for business owners.
+It uses a content manager to manage a company's employee database, using Node.js, Inquirer, and MySQL.
+```
 [Installation](#installation)
 
 [Usage](#usage)
@@ -21,21 +20,22 @@ Build a command-line application from scratch to manage a company's employee dat
 [Questions](#contact-information)
 
 ## Installation
-
-Rename .env(exmaple) enter mysql login information
-
+```
+Clone repository: Git or checkout with SVN using the web URL.
+install dependecies: npm install(i)
+Rename .env(example) enter mysql login information
+```
 In the command-line input the following:
 This will create tables and pre-populate database
 
-1. mysql -u root -p
-2. Login with your unique mysql password
-3. Copy and paste schema.sql to create tables 
-4. source db/seeds.sql
-5. Quit
+  - mysql -u root -p
+  - Login with your unique mysql password
+  - Copy and paste schema.sql to create tables 
+  - source db/seeds.sql
 
 ## Usage
 
-In the command-line input 'npm start', you will be able to the view the content manager.
+In the command-line input '`npm start`', you will be able to the view/add/update/delete employee records from the content manager.
 
 Application demonstration:
 https://www.loom.com/share/fffa3b691ff744799ac17b70dffc0873
