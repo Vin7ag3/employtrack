@@ -4,8 +4,9 @@
 
 ## Description
 ```
-This application streamlines management of departments, roles, and employees for business owners.
-It uses a content manager to manage a company's employee database, using Node.js, Inquirer, and MySQL.
+This application handles management of departments, roles, and employees for business owners.
+It uses a command-line interface (content manager) with basic CRUD operations to manage a company's
+employee database, using Node.js, Inquirer, and MySQL.
 ```
 [Installation](#installation)
 
