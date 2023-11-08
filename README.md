@@ -23,20 +23,21 @@ employee database, using Node.js, Inquirer, and MySQL.
 ## Installation
 ```
 Clone repository: Git or checkout with SVN using the web URL.
-install dependecies: npm install(i)
+install dependecies: npm install
 Rename .env(example) enter mysql login information
 ```
-In the command-line input the following:
+Open mysql command-line by running the following:
 This will create tables and pre-populate database
 
-  - mysql -u root -p
-  - Login with your unique mysql password
-  - Copy and paste schema.sql to create tables 
-  - source db/seeds.sql
+  - `mysql -u root -p`
+  - Login with your mysql password
+  - Copy and paste `schema.sql` to create necessary tables within the database
+  - `source db/seeds.sql` command to pre-populate the database with seed data
 
 ## Usage
 
-In the command-line input '`npm start`', you will be able to the view/add/update/delete employee records from the content manager.
+In the command-line use the command '`npm start`' to access and manage employee records in the content manager. 
+This command will start the application, allowing you to view, add, update, or delete employee records.
 
 Application demonstration:
 https://www.loom.com/share/fffa3b691ff744799ac17b70dffc0873
